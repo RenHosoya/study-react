@@ -1,6 +1,10 @@
 import Image from "next/image";
 
-export default function Headline(props: any) {
+type HeadlineProps = {
+	title: string;
+};
+
+export default function Headline(props: HeadlineProps) {
 	const { title } = props;
 	return (
 		<div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
