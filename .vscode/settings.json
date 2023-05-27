@@ -7,10 +7,11 @@
     "rgba(189,214,238,0.5)",
     "rgba(180,198,231,0.5)",
     "rgba(222,234,246,0.5)",
-    "rgba(255,0,0,0.5)",
+    "rgba(255,0,0,0.5)"
   ],
   "indentRainbow.excludedLanguages": [],
-  "indentRainbow.includedLanguages": [
-      "plaintext"
-  ],
+  "indentRainbow.includedLanguages": ["plaintext"],
+  "editor.minimap.enabled": false,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative"
 }
